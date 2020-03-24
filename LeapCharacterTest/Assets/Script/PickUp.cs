@@ -9,6 +9,7 @@ public class PickUp : MonoBehaviour
     private Rigidbody rb;
     private void Awake()
     {
+        theDest = GameObject.FindWithTag("PickUpDest").transform;
         rb = GetComponent<Rigidbody>();
     }
     void OnMouseDown()
