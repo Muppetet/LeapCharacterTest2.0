@@ -25,7 +25,7 @@ public class RigidbodyCharacter : MonoBehaviour
         _xAxis = Input.GetAxis("Horizontal");
         _zAxis = Input.GetAxis("Vertical");
 
-        playerIsJumping = Input.GetButton("Jump");
+         playerIsJumping = Input.GetButton("Jump");
 
         Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down) * 10f, Color.blue);
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out _hit, Mathf.Infinity))
@@ -52,7 +52,9 @@ public class RigidbodyCharacter : MonoBehaviour
                          transform.TransformDirection(_xAxis, 0, _zAxis));
 
         if (playerIsJumping)
+        {
             PlayerJump(playerJumpForce, appliedForceMode);
+        }
     }
 
     private void PlayerJump(float jumpForce, ForceMode forceMode)
