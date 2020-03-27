@@ -7,4 +7,4 @@ Vi har skapat någora olika object och nu testa dom och hur dom interagerar med 
 Vi har använt unity version 2019.3.6f1 för att göra detta tester så installera den eller senare för att starta projektet
 om du har nyare så kommer den be om du ska uppdatera projektet, tryck bara ja.
 
-Foldern ni vill öppna med unity är den som heter LeapCharacterTest som finns I LeapCharacterTest2.0
+Scenerna man vill öppna och kolla på finns i LeapCharacterTest2.0\LeapCharacterTest\Assets\Scenes
