@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Test102.unity
+- path: Assets/Scenes/Alexander.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
