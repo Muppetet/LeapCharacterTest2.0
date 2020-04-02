@@ -8,6 +8,11 @@ TagManager:
   - PickUpDest
   - SpecialItem
   - Lever
+  - Trumpet
+  - String
+  - Bell
+  - PlattFormPuzzle1
+  - CubeKey
   layers:
   - Default
   - TransparentFX
