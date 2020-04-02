@@ -255,6 +255,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alex
       objectReference: {fileID: 0}
+    - target: {fileID: 3934428977156345784, guid: d0a14d3c21c002f4eb45e7d1234cc1eb,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934428977156345784, guid: d0a14d3c21c002f4eb45e7d1234cc1eb,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.6238807
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934428977156345784, guid: d0a14d3c21c002f4eb45e7d1234cc1eb,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052047779802445430, guid: d0a14d3c21c002f4eb45e7d1234cc1eb,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052047779802445430, guid: d0a14d3c21c002f4eb45e7d1234cc1eb,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4312474308490619440, guid: d0a14d3c21c002f4eb45e7d1234cc1eb,
         type: 3}
       propertyPath: m_Name
@@ -264,7 +289,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 431976354}
+      objectReference: {fileID: 1090245386}
     - target: {fileID: 7946308758678702554, guid: d0a14d3c21c002f4eb45e7d1234cc1eb,
         type: 3}
       propertyPath: m_Layer
@@ -1800,12 +1825,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9be15d8c9e1583f4c8f8f6db1c3e41c4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f822cb704831258478e01792e525a226, type: 3}
---- !u!1 &431976354 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6858422089817049799, guid: add5563353096ae4daa1df8dfed72ef6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1600590304}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &491647707
 GameObject:
   m_ObjectHideFlags: 0
@@ -4356,6 +4375,12 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6858422089817049849, guid: add5563353096ae4daa1df8dfed72ef6,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 113cbbeb0bf9fd74eb6cbf6ba0d8e142,
+        type: 2}
     - target: {fileID: 6858422089817049850, guid: add5563353096ae4daa1df8dfed72ef6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4414,7 +4439,7 @@ PrefabInstance:
     - target: {fileID: 6858422089817049851, guid: add5563353096ae4daa1df8dfed72ef6,
         type: 3}
       propertyPath: walkSpeed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: add5563353096ae4daa1df8dfed72ef6, type: 3}
